@@ -64,17 +64,17 @@ Once saved the new <b>Custom Role</b> will appear in your list of <b>Roles</b>:
 Now it can be applied to a group or individual users. 
 To use a group, use [Google Groups](https://groups.google.com) to create a group. The next step is the same for a group or an individual user account.
 
-Click into <b>IAM</b> in the <b>IAM & Admin</b> section
+Click into <b>IAM</b> in the <b>IAM & Admin</b> section<br>
 ![](../assets/iam.png)
 
 
-Click <b>ADD</b> 
+Click <b>ADD</b> <br>
 ![](../assets/add_p.png)
 
 
 
 Add any google account (personal) or a group and click to <b>Select a role</b> 
-Begin typing the name of the <b>Custom Role</b> created previously and select it. 
+Begin typing the name of the <b>Custom Role</b> created previously and select it. <br>
 ![](../assets/adding_group.png)
 <br><br>
 
