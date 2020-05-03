@@ -15,9 +15,9 @@
 ##### Roles are groups of permissions that can be assigned to an individual or a group. GCP lets users use pre-made Roles or create Custom Roles.
 ##### This guide will walk through creating a new custom role that can be reused for group projects relying on BigQuery and Google Storage. 
 
-In the hambuger menu, click <b>IAM & Admin</b> and then <b>Roles</b>
-![](../assets/roles.png)
-<br>
+
+![](../assets/roles.png)<br>In the hambuger menu, click <b>IAM & Admin</b> and then <b>Roles</b>
+
 In this screen click <b>CREATE ROLE</b>
 ![](../assets/create_role.jpg)
 <br>
@@ -31,20 +31,20 @@ Selecting the correct roles is the whole point of this exercise. We want to give
 
 Click <b>ADD PERMISSONS</b>
 
-![](../assets/add_perms.jpg)
+![](../assets/add_perms.png)
 
 Then search for the <b><i>Role Groups</b></i> we want:
 
-![](../assets/bq_job_user.jpg)
+![](../assets/bq_job_user.png)
 Once the right pre-set roles are selected, <b><i>X-out</b></i> of the modal. 
 
 
-![](../assets/adding_perms.jpg)
+![](../assets/adding_perms.png)
 Then make sure all the individual permissions are checked. At this point, certain permissions can be excluded. `setIamPolicy` permissions probably are not needed, and following the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) is good practice.
 It's also not critical that this is done perfectly the first time. <b>Roles</b> can be modified easily, and the effects are almost immediate. (Sometimes the user will need to log out, and sign in again for their new permissions to be honored.)
 Once a selection has been made (be sure to click through and enable the permissions on all the pages since only 10 are shown at a time), click <b>ADD</b>. 
 
-![](../assets/review.jpg)
+![](../assets/review.png)
 
 
 The changes that would be applied can be reviewed, and when satisfied, click <b>CREATE</b>. If an existing <b>Role</b> is being edited, click <b>SAVE</b>.
@@ -67,7 +67,7 @@ Click <b>ADD</b>
 
 Add any google account (personal) or a group and click to <b>Select a role</b> 
 Begin typing the name of the <b>Custom Role</b> created previously and select it. 
-![](../assets/adding_group.jpg)
+![](../assets/adding_group.png)
 <br><br>
 
 Add any additional users or groups and click <b>SAVE</b>
