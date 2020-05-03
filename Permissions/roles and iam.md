@@ -16,6 +16,14 @@
 ##### This guide will walk through creating a new custom role that can be reused for group projects relying on BigQuery and Google Storage. 
 
 
+### Start with a Project
+![](../assets/project.png)
+
+
+![](../assets/selection.png)
+
+The following steps will be easier to follow by staying within the inteded project.
+
 ![](../assets/roles.png)<br>In the hambuger menu, click <b>IAM & Admin</b> and then <b>Roles</b>
 
 In this screen click <b>CREATE ROLE</b>
